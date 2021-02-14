@@ -45,7 +45,7 @@ def admin(update,context):
     update.message.reply_text("Admin👨🏻‍💻 bilan bog'lanish - @nozimjon_hamdamov ")
 
 # Token, tugmalarga funksiylarni ula1535776751:AAENKr4UR3yuQlU2sWX70zwmZbB9L9YGHxIsh uchun funksiya tuzib olamiz.
-updater = Updater('1535776751:AAENKr4UR3yuQlU2sWX70zwmZbB9L9YGHxI', use_context = True)
+updater = Updater('Token', use_context = True)
 dispatcher = updater.dispatcher
 dispatcher.add_handler(CommandHandler('start', start))
 dispatcher.add_handler(CommandHandler('admin', admin))
